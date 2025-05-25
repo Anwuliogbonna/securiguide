@@ -1,0 +1,1 @@
+// JavaScript to handle form submission and display results
