@@ -2,8 +2,8 @@ services:
   - type: web
     name: securiguide-app
     env: python
-    plan: free
     region: oregon
+    plan: free
     buildCommand: pip install -r backend/requirements.txt
     startCommand: python backend/app.py
     envVars:
